@@ -1,0 +1,39 @@
+baseurl = "https://bsun0802.github.io/"
+theme = "cocoa-eh"
+hasCJKLanguage = true
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Bo Sun"
+title = "Bo Sun's Blog - Vocabulary of R | Python Trics | 随想"
+disqusshortname = ""
+pluralizelisttitles = false
+
+enableEmoji = true
+
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 PDT"
+description = "Bo's Blog"
+copyright = "Copyright © 2018 Bo Sun"
+logofile = "img/logo2.png"
+faviconfile = "img/logo2.png"
+highlightjs = true
+progressively = true
+align_left = false
+latestpostcount=6
+lang = "en"
+github = "bsun0802"
+email = "bos@usc.edu"
+linkedin = "bo-博-sun-孙-9866a3117"
+social_banner = "img/banner.png"
+posts_navigation = true
+small_banner_logo = false
+usesmallsummarycard = true
