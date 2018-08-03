@@ -14,7 +14,7 @@ categories = [
 ---
 Acknowledgement: This post is a direct reproduction of [whipperstacker's blog][1]. 
   
-I found it extremely useful when it comes to deploy your Hugo sites on Github pages. It solves it perfectly!
+I found it extremely useful when it comes to deploy your Hugo sites on Github pages. It nails it perfectly!
 
 ---
 ## Let's get Started!

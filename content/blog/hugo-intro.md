@@ -13,12 +13,13 @@ categories = [
 [Hugo][1] is a framework for building websites, technically speaking, building static pages. You could build your own website with the only prerequisite of some [command line][2] and start writing immediately with [markdown][3]. 
 
 ## Step 0. Install Homebrew 
-If you have a Mac but not using [Homebrew][4], you definitely have to try this package manager. And we will need it to install [Hugo][hugo] anyway. Hugo is the 
+If you have a Mac but not using [Homebrew][4], you definitely have to try this package manager. And we will need it to install Hugo anyway.
   
 Use the following command to install Homebrew:
 
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	brew --version # check installation
+	> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+	> brew --version # check installation
 
 ## Step 1. 
 If you have installed Homebrew successfully, then you could have Hugo installed in one line:
@@ -26,6 +27,8 @@ If you have installed Homebrew successfully, then you could have Hugo installed 
 	> brew install hugo
 	> hugo help # you are good to go!
 
+For users of other OS
+=====================
 If you are **not** using macOS, you need to check more complete instructions at [Install Hugo][5].
 
 ## Step 2. Create a new site
@@ -37,12 +40,17 @@ Being one of the most popular open-source framework for building websites, Hugo 
 
 From the root of you Hugo site:
 
-	> # clone your favorite theme into `themes/@your-theme`:
-	> git clone https://github.com/@author/@your-theme.git themes/@your-theme
+	> cd @your-new-site
+	> git init
+	> # add as submodule your favorite theme into `themes/@your-theme`:
+	> git submodule add https://github.com/@author/@your-theme.git themes/@your-theme
+	> # example
+	> # git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 	
 	> # Generate site files into public directory
 	> hugo -t @your-theme
-
+  
+See also Hugo's [Quick Start][10].
 ## Step 4. Start writing
 Congratulations, your first blog post is only one stone's throw from here!
 ### Creating Posts
@@ -50,15 +58,19 @@ Posts should generally go under a `content/blog` directory. Simply run:
 
 	> hugo new blog/your-new-post.md
 
-the above will create `your-new-post.md` under `content/blog/`, as well as the `ontent/blog/` directory itself if not exist.
+the above will create `your-new-post.md` under `content/blog/`, as well as the `content/blog/` directory itself if not exist.
   
-For posts to appear on your site, you may need draft = false in the post’s front matter or use the --buildDrafts option when building.
+For posts to be displayed on your site, you could do one of the following:
+   * add `draft = false` in the post’s [front matter][fm]
+   * or use the `--buildDrafts` option when building
+   * or add `builddrafts = true` in `config.toml`.
+   
 ### Creating Fixed Pages
 Fixed pages such as an About page should preferably go under `content/fixed` or be present at the root of the `content` directory(my preferable way).
 
 	> hugo new about.md
 
-The static pages you are going to build is genuinely text-based and the only tool you need to grab is the [markdown makeup][7] language.
+The static pages you are going to build is genuinely text-based and the only tool you need to grab is the [markdown][7] makeup language.
 
 ## Step 5 - Infinity. Have fun playing with it.
 The best approach to learn something is to play with it. Actually I build this site as a 2018 birthday gift to myself.
@@ -80,3 +92,4 @@ Recommended starting point:
 [8]: https://gohugo.io/documentation/
 [9]: http://www.gohugo.org/doc/tutorials/github-pages-blog/
 [10]: https://blog.olowolo.com/post/hugo-quick-start/
+[fm]: https://gohugo.io/content-management/front-matter/#readout
