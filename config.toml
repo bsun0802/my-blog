@@ -21,7 +21,7 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 PDT"
-description = "Bo's Blog"
+description = "Bo's Blog built with Hugo"
 copyright = "Copyright © 2018 Bo Sun"
 logofile = "img/logo2.png"
 faviconfile = "img/logo2.png"
