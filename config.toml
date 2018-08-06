@@ -8,8 +8,9 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Bo Sun"
-title = "Bo Sun's Blog - Vocabulary of R | Python Trics | 随想"
-disqusshortname = ""
+title = "Bo Sun's Blog - Data Science · R · Python · More "
+googleAnalytics = "UA-123494728-1"
+disqusshortname = "bsunblog"
 pluralizelisttitles = false
 
 enableEmoji = true
