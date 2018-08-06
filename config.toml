@@ -14,7 +14,6 @@ pluralizelisttitles = false
 
 enableEmoji = true
 
-
 [permalinks]
 blog = "blog/:slug/"
 
@@ -28,7 +27,7 @@ faviconfile = "img/logo2.png"
 highlightjs = true
 progressively = true
 align_left = false
-latestpostcount = 3
+latestpostcount = 6
 lang = "en"
 github = "bsun0802"
 email = "bos@usc.edu"
