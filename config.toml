@@ -10,11 +10,10 @@ publishdir = "public"
 author = "Bo Sun"
 title = "Bo Sun's Blog - Data Science · R · Python · More "
 googleAnalytics = "UA-123494728-1"
-
 pluralizelisttitles = false
-
 enableEmoji = true
-disqusShortname = "techalco"
+disqusShortname = "techalch"
+
 [permalinks]
 blog = "blog/:slug/"
 
@@ -34,7 +33,7 @@ progressively = true
 align_left = false
 
 latestpostcount = 5
-disqusShortname = "techalco"
+disqusShortname = "techalch"
 
 lang = "en"
 github = "bsun0802"
