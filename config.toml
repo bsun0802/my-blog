@@ -10,7 +10,7 @@ publishdir = "public"
 author = "Bo Sun"
 title = "Bo Sun's Blog - Data Science · R · Python · More "
 googleAnalytics = "UA-123494728-1"
-disqusshortname = "bsunblog"
+disqusShortname = "bsunblog"
 pluralizelisttitles = false
 
 enableEmoji = true
