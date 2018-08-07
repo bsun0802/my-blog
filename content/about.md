@@ -1,7 +1,7 @@
 +++
 title = 'About'
 date = 2018-08-02T15:18:46-07:00
-draft = true
+draft = false
 +++
 
 I'm a Ph.D student in [Computational Biology][1] lab advised by [Liang Chen][2], at University of Southern California. I found myself obsessed with interdisciplinary studies in statistics and computer science. I have some publications with supplemented pipelines and webpages. Though I have no creative application or real-world product yet, I'm highly self-motivated and keeping on building my knowledge edifice and skill set every day. I dream of creating solutions to benefit small and intermediate scale business, with the help of the ever-growing computation power and Machine Learning techniques.

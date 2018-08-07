@@ -1,7 +1,7 @@
 +++
 title = "Deploy your Hugo sites on Github Pages"
 date = 2018-07-30T15:34:13-07:00
-draft = true
+draft = false
 tags = ["Hugo", "deployment", "personal-website", "github"]
 categories = [
     "Hugo",

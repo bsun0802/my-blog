@@ -1,7 +1,7 @@
 +++
 title = 'LICENSE'
 date = 2018-08-02T18:16:27-07:00
-draft = true
+draft = false
 +++
 
 > The MIT License (MIT)

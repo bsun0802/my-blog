@@ -1,7 +1,7 @@
 +++
 title = 'How to Read Star(RNA-seq aligner) Log.final.out'
 date = 2018-08-06T11:29:33-07:00
-draft = true
+draft = false
 tags = ["RNA-seq", "Genome"]
 category = ["RNA-seq", "Genome"]
 +++

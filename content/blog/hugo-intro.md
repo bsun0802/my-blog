@@ -1,7 +1,7 @@
 +++
 title = "Create your own blog with Hugo"
 date = 2018-07-29T08:12:13-07:00
-draft = true
+draft = false
 tags = ["Hugo", "deployment", "personal-website"]
 categories = [
     "Hugo",
