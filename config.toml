@@ -1,7 +1,6 @@
 baseurl = "https://bsun0802.github.io/"
 theme = "cocoa-eh"
 hasCJKLanguage = true
-disqusShortname = "techalco"
 builddrafts = false
 canonifyurls = true
 contentdir = "content"
@@ -33,7 +32,10 @@ faviconfile = "img/logo2.png"
 highlightjs = true
 progressively = true
 align_left = false
+
 latestpostcount = 5
+disqusShortname = "techalco"
+
 lang = "en"
 github = "bsun0802"
 email = "bos@usc.edu"
