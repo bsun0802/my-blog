@@ -1,4 +1,4 @@
-baseurl = "https://bsun0802.github.io"
+baseurl = "https://bsun0802.github.io/"
 theme = "cocoa-eh"
 hasCJKLanguage = true
 builddrafts = false
