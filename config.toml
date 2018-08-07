@@ -14,7 +14,7 @@ googleAnalytics = "UA-123494728-1"
 pluralizelisttitles = false
 
 enableEmoji = true
-
+disqusShortname = "techalco"
 [permalinks]
 blog = "blog/:slug/"
 
