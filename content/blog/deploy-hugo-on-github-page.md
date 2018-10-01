@@ -151,7 +151,7 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 ```
-Save the above content to a file like `deploy.sh`. And when you build your site to remote site, call `sh deploy.sh` and `git push origin master` if you also want to commit the changes of your site source files. 
+Save the above content to a file like `deploy.sh`. And when you build your site to remote site, call `sh deploy.sh` and git add, commit and push if you also want to commit the changes of your site source files. 
 ## Mapping a Custom Domain
 
 Whether you're going to use a subdomain like `blog.yoursite.com` or an apex domain like
