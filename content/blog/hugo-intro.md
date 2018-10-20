@@ -21,7 +21,7 @@ Use the following command to install Homebrew:
 
 	> brew --version # check installation
 
-## Step 1. 
+## Step 1. Install Hugo
 If you have installed Homebrew successfully, then you could have Hugo installed in one line:
 
 	> brew install hugo
