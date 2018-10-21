@@ -82,7 +82,7 @@ Delete the `public/` directory with `rm -r public/`.
 Initialize a git repository and add the remote:
 
     $ git init
-    $ git remote add origin git@github.com:<username>/blog.git
+    $ git remote add origin https://github.com/<user.name>/<user.name>.github.io.git
 
 ### Setup When You've Already Committed and Pushed
 
