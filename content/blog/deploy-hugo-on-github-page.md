@@ -12,12 +12,29 @@ categories = [
 +++
 
 ---
+
+# Deploy on Netlify
+
+## steps
+Deploy your HUGO website on Netlify is astonishingly easy, if you are a beginner, it is recommended to use this approach.  
+
+Netlify is free and provides fast global access, automated deployment when you add or modify content, and one-click HTTPS security. Netlify free account will create a non-sense domain for your website, to deploy, simply:  
+
+* Create a [Netlify account](https://www.netlify.com)
+* create a repository on Github(Netlify also support other providers)for you finished website
+* Log-in Netlify and then click **New site from git** and follow click-and-confirm instructions from Netlify
+* Wait a couple minutes, and you are good to go.
+
+# Deploy on GitHub Pages
+
 Acknowledgement: This post is a direct reproduction of [whipperstacker's blog][1]. 
   
 I found it extremely useful when it comes to deploy your Hugo sites on Github pages. It nails it perfectly!
 
 ---
+
 ## Let's get Started!
+
 If you already know how to use Hugo, and you've never used GitHub Pages before, and
 you just want to figure out how to get everything wired up and deployed with the least
 amount of fuss necessary, then a lot of the blog posts and tutorials you'll find are
@@ -67,7 +84,7 @@ The initial setup depends on what your current situation is. Most likely, either
 1. you already have your hugo site committed and pushed up to the `blog` repository
    on GitHub.
 
-### Setup When Nothing is Committed
+### Setup When Nothing is Committed(select one of this two)
 
 Create two new, empty repositories on GitHub:
 
@@ -84,7 +101,7 @@ Initialize a git repository and add the remote:
     $ git init
     $ git remote add origin https://github.com/<user.name>/<user.name>.github.io.git
 
-### Setup When You've Already Committed and Pushed
+### Setup When You've Already Committed and Pushed(select one of this two)
 
 If you've already got your Hugo site committed to source control and pushed up to
 GitHub, then the process is similar, except that you need to make room for the submodule
