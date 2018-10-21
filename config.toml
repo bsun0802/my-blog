@@ -19,7 +19,7 @@ blog = "blog/:slug/"
 
 [[menu.main]]
 name = "My Vitae"
-url = "https://bsunfullsite.github.io/files/cv.pdf"
+url = "https://bsunfullsite.github.io/files/18-10-12-Bo-Sun-CV.pdf"
 
 [params]
 dateform = "Jan 2, 2006"
