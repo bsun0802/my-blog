@@ -8,7 +8,7 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Bo Sun"
-title = "Bo Sun's Blog - Data Science · R · Python · More "
+title = "Bo's lightweight blog - Tips | Tutorial | Random thought"
 googleAnalytics = "UA-123494728-1"
 pluralizelisttitles = false
 enableEmoji = true
@@ -19,7 +19,7 @@ blog = "blog/:slug/"
 
 [[menu.main]]
 name = "My Vitae"
-url = "https://dreamy-stallman-f662b9.netlify.com"
+url = "https://bsunfullsite.github.io/files/cv.pdf"
 
 [params]
 dateform = "Jan 2, 2006"
